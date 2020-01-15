@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>interfaceExtension</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Interface
+extension &lt;#class#&gt; {
+    
+    // MARK: Design
+    override func setupDesign() {
+        super.setupDesign()
+        
+        &lt;#code#&gt;
+    }
+    
+    // MARK: Strings
+    override func setupStrings() {
+        super.setupStrings()
+        
+        &lt;#code#&gt;
+    }
+    
+    // MARK: Bindings
+    override func setupBindings() {
+        super.setupBindings()
+        
+        &lt;#code#&gt;
+    }
+    
+    // MARK: Layout
+    override func setupLayout() {
+        super.setupLayout()
+        
+        &lt;#code#&gt;
+    }
+
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>93F1650D-C99F-4C2D-90E0-F15FD1FFCBF7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Interface Extension</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

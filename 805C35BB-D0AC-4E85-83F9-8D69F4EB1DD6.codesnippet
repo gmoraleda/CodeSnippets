@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>request</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>internal func &lt;#requestName#&gt;() -&gt; Observable&lt;JSON&gt; {
+        let url = &lt;#url#&gt;
+        let params: [String: AnyObject] = [:]
+
+        let json = JSON(.GET, url, parameters: params)
+            .map(JSON.init)
+            .shareReplay(1)
+
+        return json
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>805C35BB-D0AC-4E85-83F9-8D69F4EB1DD6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>GET Request</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

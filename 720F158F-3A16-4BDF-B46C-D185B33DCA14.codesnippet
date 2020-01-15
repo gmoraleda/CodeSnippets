@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>vc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+import SnapKit
+
+class &lt;#ViewController#&gt;: ViewController {
+
+    // MARK: Interface Properties
+
+
+
+    // MARK: Other Properties
+
+
+
+}
+
+// MARK: - Life Cycle
+extension &lt;#ViewController#&gt; {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+}
+
+// MARK: - Interface
+extension &lt;#ViewController#&gt; {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>720F158F-3A16-4BDF-B46C-D185B33DCA14</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>ViewController</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
